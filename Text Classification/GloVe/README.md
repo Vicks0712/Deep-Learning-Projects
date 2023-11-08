@@ -11,9 +11,9 @@ The LSTM (Long Short-Term Memory) Network is a recurrent neural network architec
 2. **Interconnected cells**: LSTMs consist of cells that can read, write, and erase information in their internal memory.
 3. **Control gates**: Entry, forget, and exit gates regulate information flow within cells, determining what's stored or discarded.
 4. **Sequence modeling**: LSTMs excel at handling sequential data, making them ideal for text classification tasks.
-5. **Improved text classification**: LSTMs enhance context understanding and performance in text classification. This project leverages PyTorch's LSTM implementation.
+5. **Improved text classification**: LSTMs enhance context understanding and performance in text classification.
 
-In this project the implementation already created by Pytorch will be used.
+This project leverages PyTorch's LSTM implementation.
 
 ## About GloVe
 
