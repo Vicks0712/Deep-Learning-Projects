@@ -31,7 +31,7 @@ The data set used to train and evaluate the model consists of 3,064 magnetic res
 ## Work environment
 The Weights and Biases (wandb, https://wandb.ai/site) platform was used to track the experiments in detail, including model parameters, training metrics, evaluation metrics, and visualizations. Wandb made it easy to compare multiple models and experiments in one place.
 
-## Networks and Configurations Used
+## Results
 Custom models with simple architectures and pre-trained models were evaluated, such as ResNet18, MobileNet V2, AlexNet among others. Transfer learning and fine-tuning strategies were explored. The choice of optimizer and unfreezing of layers influenced the performance of the models. A summary of the results can be seen in the following table:
 
 | Model                                          | Accuracy  |
@@ -47,7 +47,21 @@ Custom models with simple architectures and pre-trained models were evaluated, s
 | AlexNet (all layers unfrozen)                 | 96.74%    |
 
 
-## Loss and Accuracy Plots
+## Loss and Accuracy Plots of the results
 Graphs are presented showing the loss and accuracy of the models throughout training. These plots provide information about the performance and stability of the models. Below you will see the development during training of the two best models obtained:
 
 ![image](https://github.com/Vicks0712/Deep-Learning-Projects/assets/90756558/f261b208-4bb6-4a02-b291-21db8a51af03)
+
+
+# Usage Instructions
+
+To utilize this code and the autoencoder model for grayscale image colorization, please follow these steps:
+
+1. Clone this repository to your local machine.
+2. Ensure that you have all the necessary dependencies installed.
+3. Execute the code to either train the model or use it for image reconstruction.
+4. Experiment with your own grayscale images.
+
+# Contributions
+
+Contributions to this project are highly encouraged and welcomed. If you wish to enhance the code, rectify errors, or introduce new features, please do not hesitate to submit a pull request.
