@@ -31,6 +31,17 @@ The data set used to train and evaluate the model consists of 3,064 magnetic res
 ## Work environment
 The Weights and Biases (wandb, https://wandb.ai/site) platform was used to track the experiments in detail, including model parameters, training metrics, evaluation metrics, and visualizations. Wandb made it easy to compare multiple models and experiments in one place.
 
+## Libraries used
+This project utilizes several Python libraries for its operation. Below, we outline the primary libraries employed:
+
+- [PyTorch](https://pytorch.org/): A widely used deep learning framework that simplifies the creation and training of machine learning models.
+- [NumPy](https://numpy.org/): A fundamental library for array manipulation and numerical computations in Python.
+- [Matplotlib](https://matplotlib.org/): A plotting library used to visualize data and results.
+- [OpenCV](https://opencv.org/): A computer vision library employed for image manipulation and processing.
+- [Weights & Biases (wandb)](https://wandb.ai/): An experiment tracking and visualization tool to monitor and analyze machine learning experiments.
+
+Make sure you have these libraries installed in your environment before running the project code.
+
 ## Results
 Custom models with simple architectures and pre-trained models were evaluated, such as ResNet18, MobileNet V2, AlexNet among others. Transfer learning and fine-tuning strategies were explored. The choice of optimizer and unfreezing of layers influenced the performance of the models. A summary of the results can be seen in the following table:
 
